@@ -463,8 +463,8 @@ class Database:
 db_instance = Database()
 
 def realizar_login(usuario, senha):
-    # Validação baseada na Seção 2 do vibe-coding.md
-    credenciais = {"fornodoro": ("doro123", "Administrador"), "cozinha": ("forno123", "Cozinheiro"), "entrega": ("moto123", "Motoboy")}
+    # Validação baseada no arquivo vibe-coding.md e proximospassos.md
+    credenciais = {"administrador": ("doro123", "Administrador"), "cozinha": ("forno123", "Cozinheiro"), "entrega": ("moto123", "Motoboy")}
     if usuario in credenciais and credenciais[usuario][0] == senha:
         return credenciais[usuario][1]
     return None

@@ -91,6 +91,9 @@ def abrir_janela_relatorios():
                 writer.writerow(["Total de Pedidos", dados['pedidos']])
                 writer.writerow(["Ticket Médio", formatar_moeda(dados['ticket_medio'])])
                 writer.writerow(["Pizzas Vendidas", dados['pizzas']])
+                writer.writerow(["Clientes Ativos", dados['clientes_ativos']])
+                writer.writerow(["Novos Clientes", dados['clientes_novos']])
+                writer.writerow(["Maior Venda", formatar_moeda(dados['maior_venda'])])
                 writer.writerow(["Horário de Pico", dados['pico_horario']])
 
             if os.path.exists(caminho):

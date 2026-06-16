@@ -1,35 +1,91 @@
-## Mostrar o erro real da exportação Excel
+## Implementação de Logout e Sair do Sistema
 
-Problema:
+Atualmente existe apenas o botão:
 
-Ao clicar em Excel aparece apenas:
+[Sair do Sistema]
 
-"Erro"
+Gostaria de separar as funcionalidades em dois botões.
 
-Isso não permite identificar a causa.
+----------------------------------------
 
-Correção necessária:
+Botão 1: Logout
 
-Substituir o tratamento genérico por um que exiba a mensagem real da exceção.
+Função:
+- Encerrar a sessão do usuário atual;
+- Fechar o Menu Principal;
+- Fechar as janelas abertas da sessão atual;
+- Limpar os dados do usuário logado;
+- Retornar automaticamente para a tela de Login.
 
-Exemplo:
+Fluxo:
 
-except Exception as e:
-    messagebox.showerror(
-        "Erro ao exportar Excel",
-        str(e)
-    )
+Login
+↓
+Menu Principal
+↓
+Logout
+↓
+Tela de Login
 
 Objetivo:
+Permitir troca rápida de usuário sem fechar o sistema.
 
-Exibir o erro completo para diagnóstico.
+----------------------------------------
 
-Exemplos:
+Botão 2: Sair do Sistema
 
-- Arquivo em uso
-- Caminho inválido
-- Biblioteca não encontrada
-- Erro de gravação
-- Erro de permissão
+Função:
+- Encerrar completamente a aplicação;
+- Fechar todas as janelas;
+- Finalizar o programa.
 
-Não exibir apenas "Erro".
+Fluxo:
+
+Login
+↓
+Menu Principal
+↓
+Sair do Sistema
+↓
+Programa encerrado
+
+----------------------------------------
+
+Layout
+
+Adicionar os dois botões no Menu Principal:
+
+[ Logout ]   [ Sair do Sistema ]
+
+Sugestão de cores:
+
+Logout:
+Azul ou Amarelo
+
+Sair do Sistema:
+Vermelho
+
+----------------------------------------
+
+Confirmações
+
+Logout:
+
+"Deseja encerrar a sessão atual?"
+
+[Sim] [Não]
+
+Sair do Sistema:
+
+"Deseja realmente fechar o sistema?"
+
+[Sim] [Não]
+
+----------------------------------------
+
+Importante
+
+Após o Logout:
+- Não fechar a aplicação;
+- Abrir novamente a tela de Login;
+- Permitir que outro perfil faça login imediatamente.

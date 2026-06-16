@@ -17,6 +17,8 @@ def abrir_menu(perfil):
     ctk.set_default_color_theme("blue")
     NAVY_BLUE = "#1B365D"
 
+    resultado_sessao = [None]
+
     menu_app = ctk.CTk()
     menu_app.title(f"Forno D'Oro - Sistema de Gestão [{perfil}]")
     menu_app.geometry("1000x600")
@@ -34,8 +36,14 @@ def abrir_menu(perfil):
         img_logo = None
 
     # ---------------- FUNÇÕES DE NAVEGAÇÃO ----------------
-    def fazer_logout():
-        if messagebox.askyesno("Sair", "Deseja realmente encerrar a sessão?"):
+    def executar_logout():
+        if messagebox.askyesno("Logout", "Deseja encerrar a sessão atual?", parent=menu_app):
+            resultado_sessao[0] = "logout"
+            menu_app.destroy()
+
+    def executar_sair_sistema():
+        if messagebox.askyesno("Sair do Sistema", "Deseja realmente fechar o sistema?", parent=menu_app):
+            resultado_sessao[0] = "exit"
             menu_app.destroy()
 
     # ---------------- SIDEBAR ----------------
@@ -69,8 +77,11 @@ def abrir_menu(perfil):
         ctk.CTkButton(sidebar, text="Entregas", command=abrir_janela_entregas,
                        fg_color="transparent", hover_color=NAVY_BLUE).pack(pady=5, padx=20, fill="x")
 
-    ctk.CTkButton(sidebar, text="Sair do Sistema", command=fazer_logout,
+    # Botões de Encerramento (Sempre visíveis no rodapé)
+    ctk.CTkButton(sidebar, text="Sair do Sistema", command=executar_sair_sistema,
                    fg_color="#ef4444", hover_color="#b91c1c").pack(side="bottom", pady=20, padx=20, fill="x")
+    ctk.CTkButton(sidebar, text="Logout", command=executar_logout,
+                   fg_color="#3b82f6", hover_color="#2563eb").pack(side="bottom", pady=0, padx=20, fill="x")
 
     # ---------------- ÁREA CENTRAL ----------------
     conteudo = ctk.CTkFrame(menu_app, corner_radius=15)
@@ -80,3 +91,4 @@ def abrir_menu(perfil):
     ctk.CTkLabel(conteudo, text="Selecione uma opção no menu lateral para começar.", font=("Roboto", 14)).pack(pady=10)
 
     menu_app.mainloop()
+    return resultado_sessao[0]

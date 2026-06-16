@@ -17,7 +17,7 @@ O sistema deve implementar uma tela de login validando as seguintes credenciais:
 
 | Perfil | Usuário | Senha | Permissões |
 | :--- | :--- | :--- | :--- |
-| **Atendente** | `fornodoro` | `doro123` | Acesso total: Cadastros, Pedidos, Financeiro e Status. |
+| **Administrador** | `fornodoro` | `doro123` | Acesso total: Cadastros, Pedidos, Financeiro e Status. |
 | **Cozinheiro** | `cozinha` | `forno123` | Visualização da fila de produção (Sem dados financeiros). |
 | **Motoboy** | `entrega` | `moto123` | Visualização de endereços e valores a receber. |
 
