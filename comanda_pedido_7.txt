@@ -1,0 +1,27 @@
+
+==================================================
+          PIZZARIA FORNO D'ORO - COMANDA
+==================================================
+Pedido ID: 7
+Data/Hora: 09/06/2026 19:44:02
+
+Cliente: Denilson Marcolino Marcos Mendes
+Telefone: 16985748545
+Endereço: Av. que sobe e desce que ninguem conhece, 500, 221 - Centro
+Referência: N/A
+
+--------------------------------------------------
+ITENS DO PEDIDO:
+--------------------------------------------------
+[Média] Mussarela / Frango com Catupiry (x2) - R$ 68,00/un. = R$ 136,00
+[Média] Portuguesa / Calabresa (x4) - R$ 72,25/un. = R$ 289,00
+
+--------------------------------------------------
+Subtotal: R$ 425,00
+Taxa de Entrega: R$ 10,00
+TOTAL GERAL: R$ 435,00
+==================================================
+
+OBSERVAÇÕES DO PEDIDO:
+Nenhuma.
+==================================================

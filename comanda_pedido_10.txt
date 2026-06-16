@@ -1,0 +1,26 @@
+
+==================================================
+          PIZZARIA FORNO D'ORO - COMANDA
+==================================================
+Pedido ID: 10
+Data/Hora: 11/06/2026 20:18:54
+
+Cliente: Camila Fernandes Alves
+Telefone: 16997153684
+Endereço: Rua Campos Sales, 67 - Jardim Paulista
+Referência: Em frente à academia
+
+--------------------------------------------------
+ITENS DO PEDIDO:
+--------------------------------------------------
+[Média] Nutella Especial (x1) - R$ 51,00/un. = R$ 51,00
+
+--------------------------------------------------
+Subtotal: R$ 51,00
+Taxa de Entrega: R$ 10,00
+TOTAL GERAL: R$ 61,00
+==================================================
+
+OBSERVAÇÕES DO PEDIDO:
+Nenhuma.
+==================================================

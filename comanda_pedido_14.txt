@@ -1,0 +1,26 @@
+
+==================================================
+          PIZZARIA FORNO D'ORO - COMANDA
+==================================================
+Pedido ID: 14
+Data/Hora: 16/06/2026 19:28:38
+
+Cliente: Mariana Oliveira Souza
+Telefone: 16997842531
+Endereço: Rua José Bonifácio, 245 - Centro
+Referência: Próximo à Praça Dom Assis
+
+--------------------------------------------------
+ITENS DO PEDIDO:
+--------------------------------------------------
+[Grande] Frango com Catupiry / Canadense (x1) - R$ 62,00/un. = R$ 62,00
+
+--------------------------------------------------
+Subtotal: R$ 62,00
+Taxa de Entrega: R$ 0,00
+TOTAL GERAL: R$ 62,00
+==================================================
+
+OBSERVAÇÕES DO PEDIDO:
+Nenhuma.
+==================================================

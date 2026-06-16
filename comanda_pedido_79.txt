@@ -1,0 +1,26 @@
+
+==================================================
+          PIZZARIA FORNO D'ORO - COMANDA
+==================================================
+Pedido ID: 79
+Data/Hora: 28/05/2026 20:39:08
+
+Cliente: Denilson Marcolino Marcos Mendes
+Telefone: 16985748545
+Endereço: Av. que sobe e desce que ninguem conhece, 500, 221 - Centro
+Referência: N/A
+
+--------------------------------------------------
+ITENS DO PEDIDO:
+--------------------------------------------------
+[Média] Portuguesa / Mussarela (x3) - R$ 72,25/un. = R$ 216,75
+
+--------------------------------------------------
+Subtotal: R$ 216,75
+Taxa de Entrega: R$ 10,00
+TOTAL GERAL: R$ 226,75
+==================================================
+
+OBSERVAÇÕES DO PEDIDO:
+Nenhuma.
+==================================================

@@ -1,0 +1,26 @@
+
+==================================================
+          PIZZARIA FORNO D'ORO - COMANDA
+==================================================
+Pedido ID: 13
+Data/Hora: 16/06/2026 19:27:21
+
+Cliente: Mariana Oliveira Souza
+Telefone: 16997842531
+Endereço: Rua José Bonifácio, 245 - Centro
+Referência: Próximo à Praça Dom Assis
+
+--------------------------------------------------
+ITENS DO PEDIDO:
+--------------------------------------------------
+[Média] Calabresa / Quatro Queijo (x1) - R$ 51,00/un. = R$ 51,00
+
+--------------------------------------------------
+Subtotal: R$ 51,00
+Taxa de Entrega: R$ 10,00
+TOTAL GERAL: R$ 61,00
+==================================================
+
+OBSERVAÇÕES DO PEDIDO:
+sem azeitona
+==================================================

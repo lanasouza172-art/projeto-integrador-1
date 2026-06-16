@@ -1,0 +1,26 @@
+
+==================================================
+          PIZZARIA FORNO D'ORO - COMANDA
+==================================================
+Pedido ID: 3
+Data/Hora: 29/05/2026 20:39:00
+
+Cliente: Denilson Marcolino Marcos Mendes
+Telefone: 16985748545
+Endereço: Av. que sobe e desce que ninguem conhece, 500, 221 - Centro
+Referência: N/A
+
+--------------------------------------------------
+ITENS DO PEDIDO:
+--------------------------------------------------
+[Grande] Frango com Catupiry (x5) - R$ 60,00/un. = R$ 300,00
+
+--------------------------------------------------
+Subtotal: R$ 300,00
+Taxa de Entrega: R$ 10,00
+TOTAL GERAL: R$ 310,00
+==================================================
+
+OBSERVAÇÕES DO PEDIDO:
+Nenhuma.
+==================================================

@@ -1,0 +1,26 @@
+
+==================================================
+          PIZZARIA FORNO D'ORO - COMANDA
+==================================================
+Pedido ID: 5
+Data/Hora: 29/05/2026 20:57:25
+
+Cliente: Gabriel Insuportavel
+Telefone: 55555555555
+Endereço: Rua Augusta, 2469 - Centro
+Referência: Carrinho de milho verde
+
+--------------------------------------------------
+ITENS DO PEDIDO:
+--------------------------------------------------
+[Família] Calabresa / Mussarela (x10) - R$ 100,00/un. = R$ 1.000,00
+
+--------------------------------------------------
+Subtotal: R$ 1.000,00
+Taxa de Entrega: R$ 10,00
+TOTAL GERAL: R$ 1.010,00
+==================================================
+
+OBSERVAÇÕES DO PEDIDO:
+Sem a Emily
+==================================================
